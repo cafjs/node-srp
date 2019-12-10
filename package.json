@@ -1,7 +1,7 @@
 {
   "name": "srp",
   "description": "Secure Remote Password (SRP)",
-  "version": "0.2.2",
+  "version": "0.2.3",
 
   "main": "index.js",
 
@@ -19,10 +19,10 @@
   "readmeFilename": "README.md",
 
   "dependencies": {
-    "bignum": "0.13.0"
+    "bignum": "fanatid/node-bignum#node12"
   },
 
   "devDependencies": {
-    "vows": "0.7.0"
+    "vows": "0.8.3"
   }
 }
